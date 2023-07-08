@@ -2,11 +2,11 @@ clear;
 close all;
 addpath(genpath(fileparts(mfilename('fullpath'))));
 
-range=[0,1000];      %%%%%%滤波范围 
-M=1000;               %%%%%%窗口大小
-fw=800;             %%%%%%%坐标横轴大小
+range=[0,1000];      %%%%%%婊ゆ尝鑼冨洿 
+M=1000;               %%%%%%绐楀彛澶у皬
+fw=800;             %%%%%%%鍧愭爣妯酱澶у皬
 
-%% Paderborn University dataset Fs=64000 理论故障频率123.3 Hz
+%% Paderborn University dataset Fs=64000 鐞嗚鏁呴殰棰戠巼123.3 Hz
  y=load('N15_M07_F04_KI18_10.mat');
  y=y.N15_M07_F04_KI18_10.Y(7).Data; 
  y=y';

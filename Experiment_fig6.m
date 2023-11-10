@@ -2,11 +2,11 @@ clear;
 close all;
 addpath(genpath(fileparts(mfilename('fullpath'))));
 
-range=[0,1000];      %%%%%%滤波范围 
-M=1000;               %%%%%%窗口大小
-fw=800;             %%%%%%%坐标横轴大小
+range=[0,1000];      %%%%%%婊ゆ尝鑼冨洿 
+M=1000;               %%%%%%绐楀彛澶у皬
+fw=800;             %%%%%%%鍧愭爣妯酱澶у皬
 
-%% MFPT Fs=97656 理论故障频率81.1%%%%
+%% MFPT Fs=97656 鐞嗚鏁呴殰棰戠巼81.1%%%%
 h2=load('baseline_1.mat');
 y=h2.bearing.gs;
 y=y(1:16384);

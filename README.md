@@ -1,5 +1,5 @@
 # RV_ESPRIT
-MATLAB codes for the paper: "Frequency Estimation of Vibration Signals: A Subspace Approach for Bearing Fault Diagnosis"
+MATLAB codes for the paper: Changjie Li, Zheng Cao, Shanliang Li, Jisheng Dai, "Frequency Estimation of Vibration Signals: A Subspace Approach for Bearing Fault Diagnosis." IEEE Sensors Journal, 2024.
 
 "Experiment_fig5.m" will generate Fig. 5 in the paper.
 
